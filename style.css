@@ -72,6 +72,7 @@ body{
 
 .slider {
     height: 200px;
+    width: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,5 +97,5 @@ body{
 
 .slider img {
     height: inherit;
-    width: auto;
+    width: inherit;
 }
