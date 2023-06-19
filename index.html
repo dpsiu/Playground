@@ -8,6 +8,7 @@
 </head>
 <body>
     <div class="card card1">
+        <div class="cardTitle">Dropdown Menu</div>
         <div class="dropdown">
             <button onclick="myFunction()" class="dropbtn">Dropdown</button>
             <div id="myDropdown" class="dropdown-content">
@@ -18,6 +19,7 @@
         </div>
     </div>
     <div class="card card2">
+        <div class="cardTitle">Image Slider</div>
         <div class="slider">
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <img src="./images/pexels-kitsun-yuen-7614550.jpg" alt="" class="picture">
@@ -25,6 +27,11 @@
             <img src="./images/pexels-quang-nguyen-vinh-2649394.jpg" alt="" class="picture">
             <a class="next" onclick="plusSlides(1)">&#10095;</a>            
         </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
     </div>
 
     <script src="script.js"></script>
