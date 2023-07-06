@@ -13,8 +13,9 @@ body{
     background-color: var(--clr-background);
     display: flex;
     flex-wrap: wrap;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 .cardTitle {
     text-align: center;
@@ -123,3 +124,9 @@ body{
   .active, .dot:hover {
     background-color: var(--clr-primary);
   }
+
+    /* ---------------------- Card 3: Recursion Practice ---------------------- */
+
+    p {
+      color: var(--clr-white);
+    }

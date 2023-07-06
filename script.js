@@ -50,3 +50,42 @@ function showSlides(n) {
     dots[slideIndex-1].className += " active";
 
 }
+
+//   ---------------------- Card 3: Recursion Practice ----------------------
+
+console.log('hey')
+
+function sumRange(n, total = 0) {
+  if (n <= 0) {
+    return total
+  } 
+  return sumRange(n-1, total + n)
+}
+
+function power(n, e){
+	if(e == 0) return 1;
+	return n * power(n, e - 1);
+}
+
+// Basically, return the calculation formula, one # being the base,
+//  the other # being the function again, but one less?
+
+function factorial (n) {
+  if (n == 0 || n == 1) return 1
+  return n * factorial(n-1)
+}
+
+function productOfArray(array){
+	if(array.length === 0) return 1;
+
+	return array.shift() * productOfArray(array);
+}
+
+// array.shift removes and returns first element of array
+// [1, 4, 6] = 24
+// return 1 * [4, 6]
+    // return 4 * [6]
+        //  return 6 * []
+
+// return in this case had to get a number, then calculate the slightly changed 2nd num
+
